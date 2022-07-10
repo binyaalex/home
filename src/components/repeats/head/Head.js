@@ -1,5 +1,5 @@
 import './Head.css';
-// import Menu from '../menu/Menu'
+import Menu from '../menu/Menu'
 // import HeadNotifications from '../../notificationsPages/headNotifications/HeadNotifications'
 import React, { useEffect } from 'react';
 
@@ -41,7 +41,7 @@ const Head = ({text}) => {
 			</div>
 			<div className='menu' >
 				<img onClick={() => display('.menu')} className='menuEsc' src='/images/head/esc.png' />
-				{/* <Menu display={display} /> */}
+				<Menu display={display} />
 			</div>
 			{/* <HeadNotifications /> */}
 		</>

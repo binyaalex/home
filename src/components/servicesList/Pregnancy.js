@@ -37,7 +37,7 @@ const Pregnancy = () => {
 	return (
 		<div className='PageDad' >
 			<div className='page' >
-				<Head text='הריון' />
+				<Head text='השירותים שלי' />
 				<main className='pregnancyPage' >
 					{
 						pregnancyArr.map((el, i) => {
