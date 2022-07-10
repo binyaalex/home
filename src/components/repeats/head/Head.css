@@ -1,0 +1,42 @@
+.head {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 428px;
+  height: 38px;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  padding: 0px 21px;
+  margin: 20px auto;
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+}
+
+.head > * {
+  font-size: 14px;
+}
+
+.menuIcon {
+  margin: 0 11px;
+}
+
+.bell {
+  margin: 0 13px;
+}
+
+.headHeader {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.0625em;
+  line-height: 1.5625;
+  font-weight: 700;
+  color: #1E2022;
+}
+
+.menu {
+  display: none;
+}
+

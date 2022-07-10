@@ -1,0 +1,80 @@
+.footer {
+  background-color: white;
+  width: 100%;
+  padding: 15px 21px;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
+  max-width: 428px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.sosAndGray {
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+
+.sos {
+  width: 47px;
+  margin-right: 31px;
+}
+
+.grayIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.webChatImg {
+  height: 22px;
+  width: 22px;
+}
+
+.grayIcon {
+  height: 22px;
+  width: 22px;
+}
+
+/*.comments {
+  font-size: 25px;
+  border: 5px solid #BF2C7D;
+  border-radius: 50%;
+  padding: 9px;
+  background-color: #BF2C7D;
+  color: white;
+  position: relative;
+  bottom: 10px;
+  margin: 0;
+}*/
+
+.chat {
+  width: 79px;
+  position: absolute;
+  right: 19px;
+  bottom: 17px;
+}
+
+@media only screen and (max-width: 390px) {
+  .footer{
+    padding: 15px 10px !important;
+  }
+  .sos{
+    margin-right: 20px;
+  }
+  .grayIcons{
+    width: 200px !important;
+  }
+  .chat{
+    right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .sos{
+    margin-right: 10px;
+  }
+}
