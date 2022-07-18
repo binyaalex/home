@@ -12,24 +12,16 @@ import "./Footer.css";
 
 const containerArr = [
   {
-    img: "/images/footer/home.png",
-    link: "/",
+    img: "/images/footer/tag.png",
+    link: "",
   },
   {
-    img: "/images/footer/club2.png",
-    link: "/club",
+    img: "/images/footer/bell.png",
+    link: "",
   },
   {
-    img: "/images/footer/list.png",
-    link: "/mybaby",
-  },
-  {
-    img: "/images/footer/book.png",
-    link: "/appointment",
-  },
-  {
-    img: "/images/footer/shopping_cart.png",
-    link: "/marketplace",
+    img: "/images/footer/user.png",
+    link: "",
   },
 ];
 
@@ -42,7 +34,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="sosAndGray">
           <a>
-            <img className="sos" src="/images/footer/sos.png" />
+            <img className="sos" src="/images/footer/home.png" />
           </a>
           <div className="grayIcons">
             {containerArr.map((el, i) => {
@@ -53,6 +45,9 @@ const Footer = () => {
               );
             })}
           </div>
+        </div>
+        <div class="mainChat">
+          <img class="chat" src="/images/footer/chat.png"/>
         </div>
 {/* 
         <ChatBot>
