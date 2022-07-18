@@ -1,0 +1,312 @@
+/* Create the Default Paragraphs */
+.appointment_pages.rtl * {
+  text-align: right !important;
+}
+.appointment_pages {
+  height: 100%;
+  max-width: 428px;
+  width: 100%;
+}
+
+.appointment_pages .searchbox_container {
+  max-width: 767px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+.appointment_pages .dateselector_container {
+  max-width: 767px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  width: 100%;
+}
+.appointment_pages .dateselectoroption_container {
+  max-width: 767px;
+  margin: 0 auto;
+  width: 100%;
+}
+.appointment_pages .timeselector_container {
+  max-width: 767px;
+  padding: 0 15px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.doctor_box_area {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.appointment_pages .searchbox_container h2 {
+  color: #4a4e53;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 600;
+}
+.appointment_pages .searchbox_container .searchbox {
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  margin: 15px 0px;
+  padding: 10px;
+  border: 1px solid #bec4c8;
+  border-radius: 8px;
+}
+.appointment_pages .searchbox_container input[type="search"] {
+  width: 90%;
+  text-align: right !important;
+  margin-left: 5%;
+}
+.appointment_pages .searchbox_container input[type="search"]::placeholder {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+  text-align: right !important;
+  color: #77838f;
+  margin-left: 5%;
+}
+
+.dateselector_container {
+  margin-top: 10px;
+  padding: 15px 15px;
+}
+.dateselector_container .dateselector_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dateselector_container h2 {
+  color: #4a4e53;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 600;
+}
+.dateselector_container .dateselector {
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  margin: 15px 0px;
+  padding: 10px;
+  border: 1px solid #bec4c8;
+  border-radius: 8px;
+  display: flex;
+}
+
+.dateselector_container .dateselector img {
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: -5px;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.dateselector_container input[type="text"] {
+  width: 97%;
+  text-align: right;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.dateselector_container input[type="text"]::placeholder {
+  color: #6a6a6a;
+  font-size: 14px;
+  width: 85%;
+  text-align: right;
+  font-weight: 600;
+}
+
+.dateselectoroption_container {
+  display: inline-flex;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.dateselectoroption_container .dateselectoroption {
+  text-align: center;
+  width: 10%;
+  height: 60px;
+  margin: 7px 7px;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 51px;
+}
+.dateselectoroption_container
+  .dateselectoroption
+  .dateselectoroptions_lable:hover,
+.dateselectoroption_container .dateselectoroption .dateoptions:hover {
+  cursor: pointer;
+}
+.dateselectoroption_container .dateselectoroptionActive {
+  text-align: center;
+  width: 12%;
+  height: 60px;
+  margin: 7px 7px;
+  padding: 15px;
+  border-radius: 8px;
+  color: #bf2c7d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dateselectoroption_container .dateselectoroption .dateselectoroptions_lable {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dateselectoroption_container .dateselectoroptionActive .dateoptionsActive {
+  background: #bf2c7d !important;
+  color: #fff !important;
+  padding: 7px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: -3px;
+  text-align: center;
+}
+.dateselectoroption_container
+  .dateselectoroptionActive
+  .dateselectoroptions_lableActive {
+  color: #bf2c7d;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.timeselector_container h2 {
+  color: #4a4e53;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 600;
+}
+.timeselector_container .timeselector {
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  margin: 15px 0px;
+  padding: 10px;
+  border: 1px solid #bec4c8;
+  border-radius: 8px;
+  display: flex;
+}
+.timeselector_container .timeselector img {
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: -5px;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+.timeselector_container input[type="text"] {
+  width: 97%;
+  text-align: right;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.timeselector_container input[type="text"]::placeholder {
+  color: #6a6a6a;
+  font-size: 14px;
+  width: 85%;
+  text-align: right;
+  font-weight: 600;
+}
+
+.appointment_pages .timeselectoroption_container {
+  display: flex;
+  max-width: 767px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.appointment_pages .timeselectoroption_container .timeselectoroption {
+  text-align: center;
+  width: 29%;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #bec4c8;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.appointment_pages .timeselectoroption_container .timeselectoroption:hover {
+  background-color: #bf2c7d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appointment_pages .timeselectoroption_container .choosen {
+  background-color: #bf2c7d;
+  color: #fff;
+}
+
+/* Button */
+.appointment_pages .box_btn {
+  padding: 15px 0;
+  box-shadow: 0px -2px 5px 0px #00000042;
+  background: var(--White-color);
+  text-align: center;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  margin-top: 15px;
+  z-index: 9;
+}
+.appointment_pages .box_btn .go_btn {
+  max-width: 65%;
+  width: 100%;
+  margin: 0 auto;
+  color: var(--White-color);
+  background: #bf2c7d;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 17px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.btn_area .apply_btn {
+  max-width: 65%;
+  width: 100%;
+  margin: 0px auto;
+  color: var(--White-color);
+  background: #df2d86;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.appointment_pages .searchbox_container .searchbox i.fa-search {
+  font-size: 20px;
+  width: 5%;
+  margin-left: -30px;
+  margin-top: 3px;
+  color: #bf2c7d;
+  float: right;
+}
+
+.appointment_pages .doctors_sec .container .doctors_area .doctor_heading {
+  text-align: right !important;
+}
+
+.appointment_pages .searchbox_container .searchbox_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment_pages .timeselector_container .timeselector_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

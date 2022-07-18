@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Pregnancy from './components/servicesList/Pregnancy'
+import ServiceList from './components/servicesList/ServiceList'
 import Doctors from './components/doctors/Doctors';
+import Appointment from './components/appointment/Appointment';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <div className="page">
         <BrowserRouter>
           <Routes>
-              <Route path="/" element={<Pregnancy />} />
+              <Route path="/" element={<ServiceList />} />
               <Route path="/specialists" element={<Doctors />} />
+              <Route path="/appointment" element={<Appointment />} />
           </Routes>
         </BrowserRouter>
       </div>

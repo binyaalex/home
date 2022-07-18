@@ -4,32 +4,42 @@ import PregnancySquare from './pregnancySquare/PregnancySquare';
 import Head from '../repeats/head/Head';
 import Footer from '../repeats/footer/Footer';
 
-const Pregnancy = () => {
+const ServiceList = () => {
 
 	const pregnancyArr = [
 		{
-			img: '/images/pregnancy/mybody.jpg',
+			img: '/images/serviceList/clean.jpg',
 			text: 'ניקוי כניסה',
 			link: '#',
 		},
 		{
-			img: '/images/pregnancy/mybaby.jpg',
+			img: '/images/serviceList/elevator.jpg',
 			text: 'תחזוקת מעליות',
 			link: '#',
 		},
 		{
-			img: '/images/pregnancy/fitness.jpg',
+			img: '/images/serviceList/garbage.jpg',
 			text: 'פינוי זבל',
 			link: '#',
 		},
 		{
-			img: '/images/pregnancy/nutricion.jpg',
+			img: '/images/serviceList/security.jpg',
 			text: 'אבטחה',
 			link: '#',
 		},
 		{
-			img: '/images/pregnancy/vitamins.jpg',
+			img: '/images/serviceList/repair.jpg',
+			text: 'שיפוץ',
+			link: '#',
+		},
+		{
+			img: '/images/serviceList/electric.jpg',
 			text: 'חשמל',
+			link: '#',
+		},
+		{
+			img: '/images/serviceList/plumbing.jpg',
+			text: 'אינסטלציה',
 			link: '#',
 		},
 	]
@@ -53,4 +63,4 @@ const Pregnancy = () => {
 	)
 }
 
-export default Pregnancy
+export default ServiceList
