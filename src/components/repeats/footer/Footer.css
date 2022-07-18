@@ -15,12 +15,15 @@
 .sosAndGray {
     display: flex;
     align-items: center;
-    width: 280px;
+    width: 315px;
+}
+
+.sosAndGray > a {
+  margin-right: 56px;
 }
 
 .sos {
   width: 47px;
-  margin-right: 31px;
 }
 
 .grayIcons {
