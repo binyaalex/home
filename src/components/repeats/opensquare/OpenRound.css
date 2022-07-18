@@ -1,0 +1,91 @@
+.openRound {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13.5px 0;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.imgAndText {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.openRoundImg {
+  width: 66px;
+  height: 66px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.openRoundText {
+  max-width: 140px;
+}
+
+.openRoundTextH {
+  font-size: 14px;
+  line-height: 1.33;
+  color: #222b45;
+  font-weight: 500;
+}
+
+.openRoundTextP {
+  font-size: 13px;
+  line-height: 1.23;
+  color: #8f9bb3;
+}
+
+.openRoundBtn {
+  width: 72px;
+  height: 26px;
+}
+.starSection {
+  font-size: 10px;
+  display: flex;
+  direction: rtl;
+}
+.starImg {
+  margin-left: 5px;
+  width: 14px;
+  height: 14px;
+}
+.doctorsbtn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+}
+.doctorsbtn a {
+  /*width: 72px;
+	height: 26px;*/
+  text-align: center;
+}
+.doctorsbtn .about {
+  background: lightgray;
+  color: #17AB5F;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+.doctorsbtn .appointment {
+  background: #17AB5F;
+  color: white;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.doctorsbtn > * {
+  width: 66px;
+  height: 26px;
+  line-height: 24px;
+}
+
+@media all and (max-width: 400px) {
+  .doctorsbtn > * {
+    width: 48px;
+  }
+}

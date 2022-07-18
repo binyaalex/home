@@ -1,0 +1,33 @@
+.pregnancySquareContainer {
+  height: 724px;
+  margin-top: 24px;
+}
+
+.pregnancySquare {
+  height: 168.5px;
+}
+
+.pregnancySquareImg {
+  width: 90%;
+  border-radius: 10px;
+  max-width: 386px;
+  margin: 0 20px;
+}
+
+.pregnancySquareHeader {
+    position: relative;
+    bottom: 47px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #33B573;
+    background-color: white;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 0 8px;
+    border-radius: 7px;
+    right: 10px;
+    display: inline-block;
+    margin: 0 21px;
+}
