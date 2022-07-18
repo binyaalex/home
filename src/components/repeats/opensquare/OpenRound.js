@@ -8,7 +8,7 @@ const OpenRound = (props) => {
       <div className="imgAndText">
         <img
           className="openRoundImg"
-          src={props.profileImage ? props.profileImage : "/images/doctors/doctor1.jpg"}
+          src={props.img ? props.img : "/images/doctors/doctor1.jpg"}
         />
         <div className="openRoundText">
           <h1 className="openRoundTextH">{props.firstName ? props.firstName : "חנה לוי"}</h1>

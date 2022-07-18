@@ -8,7 +8,7 @@ import OpenRound from "../repeats/opensquare/OpenRound";
 
 import Filter from "./filter/Filter";
 
-const Doctors = () => {
+const Specialists = () => {
   const [showfilter, setShowfilter] = useState(false);
 
   const [showdrp, setShowdrp] = useState(false);
@@ -35,8 +35,8 @@ const Doctors = () => {
       link: "/fordoctors",
     },
     {
-      img: "/images/doctors/doctor2.jpg",
-      firstName: 'יעל כהן',
+      img: "/images/doctors/doctor5.jpg",
+      firstName: 'יוני לוי',
       position: "שיפוצניקית",
       link: "/fordoctors",
     },
@@ -53,14 +53,14 @@ const Doctors = () => {
       link: "/fordoctors",
     },
     {
-      img: "/images/doctors/doctor5.jpg",
-      firstName: 'אבי גינזבורג',
+      img: "/images/doctors/doctor2.jpg",
+      firstName: 'יעל כהן',
       position: "מנקה",
       link: "/fordoctors",
     },
     {
       img: "/images/doctors/doctor6.jpg",
-      firstName: 'הלן מאיר',
+      firstName: 'נעם מאיר',
       position: "מנקה",
       link: "/fordoctors",
     },
@@ -72,7 +72,7 @@ const Doctors = () => {
     },
     {
       img: "/images/doctors/doctor8.jpg",
-      firstName: 'סיון דוידוף',
+      firstName: 'אבי דוידוף',
       position: "חשמלאית",
       link: "/fordoctors",
     },
@@ -82,7 +82,7 @@ const Doctors = () => {
     <>
       <div className="PageDad">
         <div className="page">
-          <Head text="רופאים" />
+          <Head text="המומחים שלנו" />
           <div className="doctorsPage">
             <div className="SearchDiv" ref={messagesEndRef}>
               <div className="Search">
@@ -140,4 +140,4 @@ const Doctors = () => {
   );
 };
 
-export default Doctors;
+export default Specialists;
