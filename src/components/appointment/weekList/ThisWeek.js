@@ -1,5 +1,3 @@
-import React from "react";
-
 import DayOption from "./DayOption";
 
 const ThisWeek = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 const DayOption = ({ day, date, i }) => {
   let divClassName = "dateselectoroption";
   let dayClassName = "dateselectoroptions_lable";
@@ -26,6 +24,7 @@ const DayOption = ({ day, date, i }) => {
       <label onClick={pick} htmlFor="dateoptions" className={dayClassName}>
         {day}
       </label>
+      {/*<br />*/}
       <div onClick={pick} className={dateClassName}>
         {date}
       </div>

@@ -11,13 +11,11 @@
 .appointment_pages .searchbox_container {
   max-width: 767px;
   margin: 0 auto;
-  padding: 0 15px;
   width: 100%;
 }
 .appointment_pages .dateselector_container {
   max-width: 767px;
   margin: 0 auto;
-  padding: 5px 15px;
   width: 100%;
 }
 .appointment_pages .dateselectoroption_container {
@@ -27,8 +25,6 @@
 }
 .appointment_pages .timeselector_container {
   max-width: 767px;
-  padding: 0 15px;
-  width: 100%;
   margin-top: 15px;
 }
 
@@ -45,17 +41,18 @@
 }
 .appointment_pages .searchbox_container .searchbox {
   text-align: left;
-  width: 100%;
-  height: 50px;
+  height: auto;
   margin: 15px 0px;
   padding: 10px;
   border: 1px solid #bec4c8;
-  border-radius: 8px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
 }
 .appointment_pages .searchbox_container input[type="search"] {
-  width: 90%;
+  width: 80%;
   text-align: right !important;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .appointment_pages .searchbox_container input[type="search"]::placeholder {
   margin-left: 15px;
@@ -67,30 +64,33 @@
   margin-left: 5%;
 }
 
-.dateselector_container {
-  margin-top: 10px;
-  padding: 15px 15px;
+.appointment_pages .searchbox_container svg {
+  margin-left: 3%;
 }
+
 .dateselector_container .dateselector_heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .dateselector_container h2 {
   color: #4a4e53;
   font-size: 14px;
   text-align: right;
   font-weight: 600;
+  margin-top: 10px;
 }
+
 .dateselector_container .dateselector {
   text-align: left;
-  width: 100%;
-  height: 50px;
+  height: auto;
   margin: 15px 0px;
   padding: 10px;
   border: 1px solid #bec4c8;
   border-radius: 8px;
   display: flex;
+  align-items: center;
 }
 
 .dateselector_container .dateselector img {
@@ -108,6 +108,7 @@
   margin-top: 5px;
   font-size: 16px;
 }
+
 .dateselector_container input[type="text"]::placeholder {
   color: #6a6a6a;
   font-size: 14px;
@@ -123,11 +124,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .dateselectoroption_container .dateselectoroption {
   text-align: center;
   width: 10%;
   height: 60px;
-  margin: 7px 7px;
   padding: 15px;
   border-radius: 8px;
   display: flex;
@@ -141,27 +142,26 @@
 .dateselectoroption_container .dateselectoroption .dateoptions:hover {
   cursor: pointer;
 }
+
 .dateselectoroption_container .dateselectoroptionActive {
   text-align: center;
   width: 12%;
   height: 60px;
-  margin: 7px 7px;
-  padding: 15px;
   border-radius: 8px;
-  color: #bf2c7d;
+  color: #17AB5F;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .dateselectoroption_container .dateselectoroption .dateselectoroptions_lable {
   font-size: 14px;
   font-weight: 400;
 }
 
 .dateselectoroption_container .dateselectoroptionActive .dateoptionsActive {
-  background: #bf2c7d !important;
+  background: #17AB5F !important;
   color: #fff !important;
-  padding: 7px;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -170,10 +170,11 @@
   margin-left: -3px;
   text-align: center;
 }
+
 .dateselectoroption_container
   .dateselectoroptionActive
   .dateselectoroptions_lableActive {
-  color: #bf2c7d;
+  color: #17AB5F;
   font-size: 14px;
   font-weight: 400;
 }
@@ -184,16 +185,18 @@
   text-align: right;
   font-weight: 600;
 }
+
 .timeselector_container .timeselector {
   text-align: left;
-  width: 100%;
-  height: 50px;
+  height: auto;
   margin: 15px 0px;
   padding: 10px;
   border: 1px solid #bec4c8;
   border-radius: 8px;
   display: flex;
+  align-items: center;
 }
+
 .timeselector_container .timeselector img {
   font-size: 20px;
   margin-top: 3px;
@@ -202,12 +205,14 @@
   height: 20px;
   float: right;
 }
+
 .timeselector_container input[type="text"] {
   width: 97%;
   text-align: right;
   margin-top: 5px;
   font-size: 15px;
 }
+
 .timeselector_container input[type="text"]::placeholder {
   color: #6a6a6a;
   font-size: 14px;
@@ -221,29 +226,28 @@
   max-width: 767px;
   margin: 0 auto;
   padding: 0 15px;
-  width: 100%;
   justify-content: space-between;
   margin-top: 30px !important;
   margin-bottom: 30px !important;
 }
+
 .appointment_pages .timeselectoroption_container .timeselectoroption {
   text-align: center;
-  width: 29%;
-  height: 40px;
-  padding: 8px;
+  width: 15%;
+  padding: 15px;
   border: 1px solid #bec4c8;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .appointment_pages .timeselectoroption_container .timeselectoroption:hover {
-  background-color: #bf2c7d;
+  background-color: #17AB5F;
   color: #fff;
   cursor: pointer;
 }
 
 .appointment_pages .timeselectoroption_container .choosen {
-  background-color: #bf2c7d;
+  background-color: #17AB5F;
   color: #fff;
 }
 
@@ -251,7 +255,7 @@
 .appointment_pages .box_btn {
   padding: 15px 0;
   box-shadow: 0px -2px 5px 0px #00000042;
-  background: var(--White-color);
+  background: white;
   text-align: center;
   position: sticky;
   width: 100%;
@@ -259,26 +263,26 @@
   margin-top: 15px;
   z-index: 9;
 }
+
 .appointment_pages .box_btn .go_btn {
   max-width: 65%;
   width: 100%;
   margin: 0 auto;
-  color: var(--White-color);
-  background: #bf2c7d;
+  color: white;
+  background: #17AB5F;
   border-radius: 10px;
   display: inline-block;
-  padding: 8px 0;
+  padding: 10px 0px 10px 0px;
   font-size: 17px;
   font-weight: 700;
-  height: 40px;
 }
 
 .btn_area .apply_btn {
   max-width: 65%;
   width: 100%;
   margin: 0px auto;
-  color: var(--White-color);
-  background: #df2d86;
+  color: white;
+  background: #17AB5F;
   border-radius: 5px;
   display: inline-block;
   padding: 12px 0;
