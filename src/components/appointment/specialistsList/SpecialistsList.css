@@ -1,25 +1,25 @@
-.doctors_sec {
+.specialistsListSec {
   padding: 20px 0 10px;
 }
 
-.doctors_sec .doctor_heading {
+.specialistsListSec .specialistsHeading {
   display: flex;
   justify-content: space-between;
 }
 
-.doctors_sec .doctor_heading a {
+.specialistsListSec .specialistsHeading a {
   font-size: 15px;
   color: #17AB5F !important;
   font-weight: 400;
   display: flex;
 }
 
-.doctors_sec .doctor_heading h3 {
+.specialistsListSec .specialistsHeading h3 {
   font-size: 17px;
   font-weight: 400;
 }
 
-.doctors_sec .doctor_box .box_img {
+.specialistsListSec .specialistsBox .boxImg {
   max-width: 75px;
   margin: 0 auto;
   width: 100%;
@@ -28,52 +28,52 @@
   height: 75px;
 }
 
-.doctors_sec .doctor_box .box_img .doctor_box_img {
+.specialistsListSec .specialistsBox .boxboxImg_img .specialistsBoxImg {
   width: 75px;
   height: 75px;
   object-fit: cover;
 }
 
-.doctors_sec .doctor_box_area {
+.specialistsListSec .specialistsBoxArea {
   padding: 15px 0 0;
   text-align: center;
 }
 
-.doctors_sec .doctor_box_area .doctor_box * {
+.specialistsListSec .specialistsBoxArea .specialistsBox * {
   text-align: center !important;
 }
 
-.doctors_sec .doctor_box_area .doctor_box .start_con {
+.specialistsListSec .specialistsBoxArea .specialistsBox .startCon {
   display: flex;
   align-items: center;
 }
 
-.doctors_sec .doctor_box_area .doctor_box .start_con svg {
+.specialistsListSec .specialistsBoxArea .specialistsBox .startCon svg {
   width: 20px;
   height: 20px;
 }
 
-.doctors_sec .doctor_box_area .doctor_box .start_con svg > path {
+.specialistsListSec .specialistsBoxArea .specialistsBox .startCon svg > path {
   color: #17AB5F;
 }
 
-.doctors_sec .doctor_box_area .doctor_box .start_con span {
+.specialistsListSec .specialistsBoxArea .specialistsBox .startCon span {
   margin-right: 5px;
   font-size: 13px;
   font-weight: 400;
 }
 
-.doctors_sec .doctor_box_area .col-3 {
+.specialistsListSec .specialistsBoxArea .col-3 {
   padding: 0 3px;
 }
 
-.doctors_sec .doctor_box {
+.specialistsListSec .specialistsBox {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.doctors_sec .doctor_box h6 {
+.specialistsListSec .specialistsBox h6 {
   font-size: 13px !important;
   margin: 10px 0 0;
   font-weight: 400;
@@ -81,7 +81,7 @@
   padding-bottom: 5px;
 }
 
-.doctors_sec .doctor_box p {
+.specialistsListSec .specialistsBox p {
   font-size: 13px !important;
   margin: 0;
   font-weight: 400;
@@ -89,7 +89,7 @@
   padding-bottom: 5px;
 }
 
-.doctors_sec .doctor_box span {
+.specialistsListSec .specialistsBox span {
   font-size: 13px;
   margin-top: 5px;
   margin-left: 5px;
@@ -97,14 +97,10 @@
   color: #8f9bb3;
 }
 
-.doctors_sec .start_con img {
+.specialistsListSec .startCon img {
   padding-top: 5x;
 }
 
-.doctors_sec .start_con span {
+.specialistsListSec .startCon span {
   margin-right: 5px;
-}
-
-.doctors_sec .slick-slider.service_slider {
-  width: 100%;
 }

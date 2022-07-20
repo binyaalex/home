@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "../repeats/head/Head";
-import DoctorList from "./doctorList/DoctorList";
+import SpecialistsList from "./specialistsList/SpecialistsList";
 import ThisWeek from "./weekList/ThisWeek";
 import MeetBtn from "./meet/MeetBtn";
 import "./Appointment.css";
@@ -40,7 +40,7 @@ function Appointment() {
             </div>
           </div>
 
-          <DoctorList />
+          <SpecialistsList />
 
           <div className="dateSelectorContainer">
             <div className="dateSelectorHeading">
