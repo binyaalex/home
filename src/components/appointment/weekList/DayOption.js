@@ -1,22 +1,22 @@
 const DayOption = ({ day, date, i }) => {
-  let divClassName = "dateselectoroption";
-  let dayClassName = "dateselectoroptions_lable";
-  let dateClassName = "dateoptions";
+  let divClassName = "dateSelectorOption";
+  let dayClassName = "dateSelectorOptionsLable";
+  let dateClassName = "dateOptions";
   if (i === 4) {
-    divClassName = "dateselectoroption dateselectoroptionActive";
-    dayClassName = "dateselectoroptions_lable dateselectoroptions_lableActive";
-    dateClassName = "dateoptions dateoptionsActive";
+    divClassName = "dateSelectorOption dateselectoroptionActive";
+    dayClassName = "dateSelectorOptionsLable dateSelectorOptionsLableActive";
+    dateClassName = "dateOptions dateOptionsActive";
   }
 
   const pick = (e) => {
     const newChoosen = e.target.parentElement;
     const oldChoosen = document.querySelector(".dateselectoroptionActive");
     oldChoosen.classList.remove("dateselectoroptionActive");
-    oldChoosen.firstChild.classList.remove("dateselectoroptions_lableActive");
-    oldChoosen.lastChild.classList.remove("dateoptionsActive");
+    oldChoosen.firstChild.classList.remove("dateSelectorOptionsLableActive");
+    oldChoosen.lastChild.classList.remove("dateOptionsActive");
     newChoosen.classList.add("dateselectoroptionActive");
-    newChoosen.firstChild.classList.add("dateselectoroptions_lableActive");
-    newChoosen.lastChild.classList.add("dateoptionsActive");
+    newChoosen.firstChild.classList.add("dateSelectorOptionsLableActive");
+    newChoosen.lastChild.classList.add("dateOptionsActive");
   };
 
   return (

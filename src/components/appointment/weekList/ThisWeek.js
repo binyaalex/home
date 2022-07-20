@@ -33,7 +33,7 @@ const ThisWeek = () => {
   ];
 
   return (
-    <div className="dateselectoroption_container">
+    <div className="dateSelectorOptionContainer">
       {thisWeekArr.map((el, i) => {
         return <DayOption day={el.day} date={el.date} i={i} key={i} />;
       })}

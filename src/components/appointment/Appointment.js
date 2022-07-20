@@ -4,12 +4,10 @@ import DoctorList from "./doctorList/DoctorList";
 import ThisWeek from "./weekList/ThisWeek";
 import MeetBtn from "./meet/MeetBtn";
 import "./Appointment.css";
-import ShapIcon from "../../assets/images/icons/Shape.png";
-import CheckCircleIcon from "../../assets/images/icons/Checkcircle.png";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Link } from "react-router-dom";
-import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from "@mui/icons-material/Search";
 import arrowDown from "../../assets/images/icons/downArrow.jpg";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import MoreTimeIcon from "@mui/icons-material/MoreTime";
@@ -23,16 +21,16 @@ function Appointment() {
 
   return (
     <>
-      <div className="PageDad">
-        <div className="page appointment_pages">
-            <Head text="Make an Appointment" />
-          <div className="searchbox_container">
-            <div className="searchbox_heading">
+      <div className="appointmentPage">
+        <Head text="Make an Appointment" />
+        <div className="appointment">
+          <div className="searchBoxContainer">
+            <div className="searchboxHeading">
               <img src={arrowDown} className="arrowDown" alt="arrow" />
               <h2>1. Choose a services</h2>
             </div>
 
-            <div className="searchbox">
+            <div className="searchBox">
               <input
                 id="search"
                 type="search"
@@ -44,8 +42,8 @@ function Appointment() {
 
           <DoctorList />
 
-          <div className="dateselector_container">
-            <div className="dateselector_heading">
+          <div className="dateSelectorContainer">
+            <div className="dateSelectorHeading">
               <i
                 className="fa fa-chevron-down"
                 aria-hidden="true"
@@ -54,7 +52,7 @@ function Appointment() {
               <h2>2. Choose the date</h2>
             </div>
             <div
-              className="dateselector"
+              className="dateSelector"
               onClick={() => setCalendarIsOpen(!calendarIsOpen)}
             >
               <DatePicker
@@ -72,8 +70,8 @@ function Appointment() {
 
           <ThisWeek />
 
-          <div className="timeselector_container">
-            <div className="timeselector_heading">
+          <div className="timeSelectorContainer">
+            <div className="timeSelectorHeading">
               <i
                 className="fa fa-chevron-down"
                 aria-hidden="true"
@@ -82,7 +80,7 @@ function Appointment() {
               <h2>3. Choose time</h2>
             </div>
             <div
-              className="timeselector"
+              className="timeSelector"
               onClick={() => setTimeCalendarIsOpen(!timeCalendarIsOpen)}
             >
               <DatePicker
@@ -102,21 +100,17 @@ function Appointment() {
             </div>
           </div>
 
-          <div className="timeselectoroption_container">
+          <div className="timeSelectorOptionContainer">
             <MeetBtn text="10:00" />
             <MeetBtn text="12:00" />
             <MeetBtn text="15:00" />
             <MeetBtn text="16:00" />
           </div>
-          <div className="box_btn">
-            <div className="container">
-              <div className="btn_area">
-                <Link to="/confirm" className="go_btn">
-                  שלחי
-                </Link>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div className="boxBtn">
+            <Link to="/confirm" className="goBtn">
+              שלחי
+            </Link>
         </div>
       </div>
     </>

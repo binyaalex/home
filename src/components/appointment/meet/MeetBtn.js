@@ -2,7 +2,7 @@ const MeetBtn = ({text}) => {
 
 	const pick = (e) => {
 		const choosen = e.target
-		const options = document.querySelectorAll('.timeselectoroption')
+		const options = document.querySelectorAll('.timeSelectorOption')
 		for (let i = 0; i < options.length; i++) {
 			options[i].classList.remove('choosen')
 		}
@@ -10,7 +10,7 @@ const MeetBtn = ({text}) => {
 	}
 
 	return (
-		<div onClick={pick} className="timeselectoroption col-4">
+		<div onClick={pick} className="timeSelectorOption col-4">
             {text}
         </div>
 	)
