@@ -10,7 +10,7 @@ const ServiceList = () => {
 		{
 			img: '/images/serviceList/clean.jpg',
 			text: 'ניקוי כניסה',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 		{
 			img: '/images/serviceList/elevator.jpg',

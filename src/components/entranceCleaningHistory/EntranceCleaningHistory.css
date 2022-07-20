@@ -30,7 +30,6 @@
   .entranceCleaningHistoryOpenRound {
   background-color: white;
   flex-direction: row-reverse;
-  padding: 10px 10px 10px;
   margin-bottom: 12px;
   border-radius: 5px;
 }

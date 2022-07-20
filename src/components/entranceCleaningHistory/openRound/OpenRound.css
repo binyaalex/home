@@ -3,7 +3,22 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
-  padding: 13.5px 10px 13.5px 0px;
+}
+
+.entranceCleaningHistoryOpenRound .MuiPaper-root {
+  width: 100%;
+}
+
+.entranceCleaningHistoryOpenRound
+  .MuiPaper-root
+  .MuiButtonBase-root
+  .MuiAccordionSummary-content
+  .MuiTypography-root {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .entranceCleaningHistoryOpenRound .imgAndText {
@@ -41,18 +56,44 @@
   margin-bottom: 0px !important;
 }
 
-.entranceCleaningHistoryOpenRound .entranceCleaningHistoryBtn .reviewColorGreen {
+.entranceCleaningHistoryOpenRound
+  .entranceCleaningHistoryBtn
+  .reviewColorGreen {
   color: white;
   background-color: #4acc89;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
 }
 
-.entranceCleaningHistoryOpenRound .entranceCleaningHistoryBtn .reviewColorWhite {
+.entranceCleaningHistoryOpenRound
+  .entranceCleaningHistoryBtn
+  .reviewColorWhite {
   color: black;
   background-color: #f4f4f4;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
+}
+
+.entranceCleaningHistoryOpenRound .aboutService h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e2022;
+}
+
+.entranceCleaningHistoryOpenRound .aboutService p {
+  font-size: 14px;
+  color: #77838f;
+}
+
+.entranceCleaningHistoryOpenRound .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: unset !important;
+}
+
+.entranceCleaningHistoryOpenRound .aboutService .shareOnWhatsappBtn {
+  background-color: #17ab5f;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 @media all and (max-width: 400px) {
