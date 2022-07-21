@@ -52,6 +52,9 @@
   display: flex;
   direction: rtl;
 }
+.starSection p {
+  margin-bottom: 0;
+}
 .starImg {
   margin-left: 5px;
   width: 14px;
@@ -73,13 +76,13 @@
 .doctorsbtn .about {
   background: lightgray;
   color: #17AB5F;
-  padding: 3px 10px;
+  padding: 0px 10px;
   border-radius: 10px;
 }
 .doctorsbtn .appointment {
   background: #17AB5F;
   color: white;
-  padding: 3px;
+  padding: 0px;
   border-radius: 10px;
 }
 

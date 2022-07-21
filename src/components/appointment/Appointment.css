@@ -139,14 +139,11 @@
 
 .appointmentPage .appointment .dateSelectorOptionContainer .dateSelectorOption {
   text-align: center;
-  width: 10%;
-  height: 60px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 51px;
 }
 
 .appointmentPage .appointment .dateSelectorOptionContainer
@@ -158,8 +155,6 @@
 
 .appointmentPage .appointment .dateSelectorOptionContainer .dateselectoroptionActive {
   text-align: center;
-  width: 12%;
-  height: 60px;
   border-radius: 8px;
   color: #17AB5F;
   display: flex;
@@ -178,10 +173,7 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-left: -3px;
-  text-align: center;
+  padding: 5px 2px 0px 0px;
 }
 
 .appointmentPage .appointment .dateSelectorOptionContainer
@@ -258,7 +250,7 @@
 
 .appointmentPage .appointment .timeSelectorOptionContainer .timeSelectorOption {
   text-align: center;
-  width: 15%;
+  width: 20%;
   padding: 15px;
   border: 1px solid #bec4c8;
   border-radius: 8px;

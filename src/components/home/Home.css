@@ -160,7 +160,7 @@
   .serviceSquareImgDiv
   .serviceSquareText {
   position: absolute;
-  bottom: 30%;
+  bottom: 25%;
   right: 5%;
 }
 
@@ -175,6 +175,7 @@
   font-weight: 700;
   color: white;
   text-shadow: black 0px 0px 5px;
+  margin-bottom: 0;
 }
 
 .homePage
@@ -188,6 +189,7 @@
   font-weight: 700;
   color: white;
   text-shadow: black 0px 0px 5px;
+  margin-bottom: 0;
 }
 
 .homePage .paidServicesArea .paidServicesHeading {

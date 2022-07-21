@@ -19,6 +19,11 @@
   font-weight: 700;
 }
 
+.entranceCleaningHistory .entranceCleaningHistoryPage .titleDiv img {
+  height: 22px;
+  width: 22px;
+}
+
 .entranceCleaningHistory .entranceCleaningHistoryPage .staffSquaresDiv {
   background-image: linear-gradient(to right, #fafafa, #f7f7f7, #fafafa);
   margin-top: 10px;
