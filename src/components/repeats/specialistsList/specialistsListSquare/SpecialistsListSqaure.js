@@ -13,35 +13,35 @@ const SpecialistsListSqaure = () => {
       firstName: 'דניאל כהן',
       position: "מנקה",
       rating: "4.6",
-      link: "/",
+      link: "",
     },
     {
       image: "/images/specialists/specialists2.jpg",
       firstName: 'יוני לוי',
       position: "שיפוצניקית",
       rating: "4.6",
-      link: "/",
+      link: "",
     },
     {
       image: "/images/specialists/specialists3.jpg",
       firstName: 'איתי ערד',
       position: "שרברב",
       rating: "4.6",
-      link: "/",
+      link: "",
     },
     {
       image: "/images/specialists/specialists4.jpg",
       firstName: 'חיה אזולאי',
       position: "מנקה",
       rating: "4.6",
-      link: "/",
+      link: "",
     },
     {
       image: "/images/specialists/specialists5.jpg",
       firstName: 'יעל כהן',
       position: "מנקה",
       rating: "4.6",
-      link: "/",
+      link: "",
     },
     // {
     //   image: "/images/specialists/specialists1.jpg",
@@ -66,44 +66,6 @@ const SpecialistsListSqaure = () => {
     // },
   ];
 
-  const specialistsListArr1 = [
-    {
-      image: "/images/specialists/specialists1.jpg",
-      title: "Ed Tomas",
-      position: "Cleaner",
-      rating: "4.6",
-      link: "/specialists",
-    },
-    {
-      image: "/images/specialists/specialists2.jpg",
-      title: "Jack Smith",
-      position: "Repairer",
-      rating: "4.6",
-      link: "/specialists",
-    },
-    {
-      image: "/images/specialists/specialists3.jpg",
-      title: "Kate Ostin",
-      position: "Cleaner",
-      rating: "4.6",
-      link: "/specialists",
-    },
-    {
-      image: "/images/specialists/specialists4.jpg",
-      title: "Lola Brown",
-      position: "Cleaner",
-      rating: "4.6",
-      link: "/specialists",
-    },
-    {
-      image: "/images/specialists/specialists5.jpg",
-      title: "Colin Leonard",
-      position: "Electrician",
-      rating: "4.6",
-      link: "/specialists",
-    },
-  ];
-
   const slides =
   specialistsListArr.length > 0
       ? specialistsListArr.map((el, i) => (
@@ -113,7 +75,7 @@ const SpecialistsListSqaure = () => {
                 <div className="boxImg">
                   <img src={el.image} alt="doctor" className="specialistsBoxImg" />
                 </div>
-                <h6>{el.title}</h6>
+                <h6>{el.firstName}</h6>
                 <p>{el.position}</p>
                 <div className="startCon">
                   <span>{el.rating}</span>

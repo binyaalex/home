@@ -12,8 +12,7 @@
 .marketPlacePage .collectiveMeetingArea .collectiveMeetingHeading {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 15px 0;
 }
 
 .marketPlacePage .collectiveMeetingArea .collectiveMeetingHeading a {

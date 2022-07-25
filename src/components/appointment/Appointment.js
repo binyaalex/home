@@ -108,7 +108,7 @@ function Appointment() {
           </div>
         </div>
         <div className="boxBtn">
-            <Link to="/confirm" className="goBtn">
+            <Link to="" className="goBtn">
               שליחה
             </Link>
         </div>
