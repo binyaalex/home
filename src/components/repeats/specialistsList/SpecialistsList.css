@@ -104,3 +104,7 @@
 .specialistsListSec .startCon span {
   margin-right: 5px;
 }
+
+.specialistsListSec .specialistsHeading svg {
+  transform: rotate(90deg);
+}

@@ -11,7 +11,7 @@ import ServiceSqaureList from "./serviceSqaure/ServiceSqaureList";
 import PaidServiceSqaureList from "./paidServiceSqaure/PaidServiceSqaureList";
 import addBtn from "../../assets/images/icons/addBtn.jpg";
 import BlogSqaureList from "./blogSquare/BlogSquareList";
-import SpecialistsList from "./specialistsList/SpecialistsList";
+import SpecialistsList from "../repeats/specialistsList/SpecialistsList";
 import Search from "../repeats/search/Search";
 
 const Home = () => {

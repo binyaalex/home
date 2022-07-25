@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "../repeats/head/Head";
-import SpecialistsList from "./specialistsList/SpecialistsList";
+import SpecialistsList from "../repeats/specialistsList/SpecialistsList";
 import ThisWeek from "./weekList/ThisWeek";
 import MeetBtn from "./meet/MeetBtn";
 import "./Appointment.css";

@@ -300,7 +300,3 @@
 .homePage .blogArea .swiper {
   padding: 0px 10px 0px 0px;
 }
-
-.homePage .specialistsArea .specialistsListSec .specialistsHeading {
-  flex-direction: row-reverse;
-}

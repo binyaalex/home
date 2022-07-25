@@ -1,6 +1,6 @@
+import "./SpecialistsList.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import "./SpecialistsList.css";
 import SpecialistsListSqaure from "./specialistsListSquare/SpecialistsListSqaure";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
@@ -11,9 +11,9 @@ const SpecialistsList = () => {
           <div className="specialistsHeading">
             <Link to={"#"} className="downArrow">
               <KeyboardDoubleArrowDownIcon />
-              View all
+              לכל המומחים
             </Link>
-            <h3>Our Specialists</h3>
+            <h3>המומחים שלנו</h3>
           </div>
           <div className="row specialistsBoxArea">
             <SpecialistsListSqaure />
@@ -24,3 +24,4 @@ const SpecialistsList = () => {
 };
 
 export default SpecialistsList;
+
