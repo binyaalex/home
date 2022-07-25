@@ -10,6 +10,7 @@ import CollectiveMeetingSqaureList from "./collectiveMeetingSqaure/CollectiveMee
 import ProductsSquareList from "./productsSquare/ProductsSquareList";
 import BestDealsSquareList from "./bestDealsSquare/BestDealsSquareList";
 import TabBtn from "./tabBtnMenu/TabBtn";
+import Search from "../repeats/search/Search";
 
 const MarketPlace = () => {
   const tabsBtnsArr = [
@@ -45,26 +46,7 @@ const MarketPlace = () => {
         <div className="page">
           <Head text="מרכז מסחרי" />
           <main className="marketPlacePage rtl">
-            <section className="searchSec">
-              <div className="searchArea">
-                <Link to={"#"} className="filterIcon">
-                  <img src={filterIcon} alt="filter" />
-                </Link>
-                <Link to={"#"} className="locationIcon">
-                  <LocationOnIcon />
-                </Link>
-                <div className="searchForm">
-                  <SearchIcon className="SearchImg" />
-                  <input
-                    type="search"
-                    name="search"
-                    id="search"
-                    className="inputSearch"
-                    placeholder="חיפוש"
-                  />
-                </div>
-              </div>
-            </section>
+            <Search />
 
             <section className="collectiveMeetingArea">
               {/* Collective Meeting Swiper */}

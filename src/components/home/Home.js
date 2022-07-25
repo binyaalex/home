@@ -12,6 +12,7 @@ import PaidServiceSqaureList from "./paidServiceSqaure/PaidServiceSqaureList";
 import addBtn from "../../assets/images/icons/addBtn.jpg";
 import BlogSqaureList from "./blogSquare/BlogSquareList";
 import SpecialistsList from "./specialistsList/SpecialistsList";
+import Search from "../repeats/search/Search";
 
 const Home = () => {
   return (
@@ -20,26 +21,7 @@ const Home = () => {
         <div className="page">
           <Head text="Home" />
           <main className="homePage rtl">
-            <section className="searchSec">
-              <div className="searchArea">
-                <Link to={"#"} className="filterIcon">
-                  <img src={filterIcon} alt="filter" />
-                </Link>
-                <Link to={"#"} className="locationIcon">
-                  <LocationOnIcon />
-                </Link>
-                <div className="searchForm">
-                  <SearchIcon className="SearchImg" />
-                  <input
-                    type="search"
-                    name="search"
-                    id="search"
-                    className="inputSearch"
-                    placeholder="Search"
-                  />
-                </div>
-              </div>
-            </section>
+            <Search />
 
             <section className="categoryArea">
               {/* Category Swiper */}
