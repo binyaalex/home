@@ -37,7 +37,7 @@ const PaidServiceSqaureList = () => {
     },
     {
       img: "/images/home/paidService7.jpg",
-      title: "מעבר דירה",
+      title: "הובלות",
       link: "#",
     },
     {

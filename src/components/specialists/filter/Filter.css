@@ -121,7 +121,7 @@ section {
 }
 
 .filter-wrpper .checkbox:checked:after {
-  content: url("../../../assets/images/filter/cheked.png");
+  content: url("../../../assets/images/filter/checked.png");
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,7 +157,7 @@ section {
 }
 
 .filter-wrpper button.filter-btn {
-  background: #bf2c7d;
+  background: var(--green);
   color: #fff;
   padding: 10px 127px;
   border-radius: 10px;

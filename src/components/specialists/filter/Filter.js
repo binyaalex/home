@@ -24,36 +24,32 @@ const Filter = (props) => {
 
   const service_list = [
     {
-      name: "תרפיה",
-      value: "תרפיה",
+      name: "נקיון",
+      value: "נקיון",
     },
     {
-      name: "קרדולוגיה",
-      value: "קרדולוגיה",
+      name: "שיפוצים",
+      value: "שיפוצים",
     },
     {
-      name: "אנדוקרינולוגיה",
-      value: "אנדוקרינולוגיה",
+      name: "אינסטלציה",
+      value: "אינסטלציה",
     },
     {
-      name: "מנתח",
-      value: "מנתח",
+      name: "אבטחה",
+      value: "אבטחה",
     },
     {
-      name: "גינקולוג",
-      value: "גינקולוג",
+      name: "חשמל",
+      value: "חשמל",
     },
     {
-      name: "נוירולוג",
-      value: "נוירולוג",
+      name: "כביסה",
+      value: "כביסה",
     },
     {
-      name: "דֶרמָטוֹלוֹגִיָה",
-      value: "דֶרמָטוֹלוֹגִיָה",
-    },
-    {
-      name: "אונוקולוגיה",
-      value: "אונוקולוגיה",
+      name: "הובלות",
+      value: "הובלות",
     },
   ];
 
@@ -100,7 +96,7 @@ const Filter = (props) => {
           <div className="filter-title d-flex justify-content-between align-items-center p-3 px-4">
             <h4>סינון</h4>
             <Link to={"#"} className="filter-clear" onClick={clearFilter}>
-              הראה הכל
+              איפוס
             </Link>
           </div>
         </div>

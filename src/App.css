@@ -1,3 +1,7 @@
+html {
+  --green: #17AB5F;
+}
+
 .PageDad {
   display: flex;
   flex-direction: column;

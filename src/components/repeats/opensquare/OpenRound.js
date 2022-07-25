@@ -29,7 +29,7 @@ const OpenRound = (props) => {
           אודות
         </Link>
         <Link className="appointment" to={"/appointment"}>
-          פגישה
+          הזמנה
         </Link>
       </div>
     </div>
