@@ -22,19 +22,19 @@ function Appointment() {
   return (
     <>
       <div className="appointmentPage">
-        <Head text="Make an Appointment" />
+        <Head text="הזמנת שירות" />
         <div className="appointment">
           <div className="searchBoxContainer">
             <div className="searchboxHeading">
               <img src={arrowDown} className="arrowDown" alt="arrow" />
-              <h2>1. Choose a services</h2>
+              <h2>1. בחירת מומחה</h2>
             </div>
 
             <div className="searchBox">
               <input
                 id="search"
                 type="search"
-                placeholder="Search for name or services"
+                placeholder="חיפוש לפי שירות או מומחית"
               />
               <SearchIcon />
             </div>
@@ -49,7 +49,7 @@ function Appointment() {
                 aria-hidden="true"
                 style={{ fontSize: "15px" }}
               ></i>
-              <h2>2. Choose the date</h2>
+              <h2>2. בחירת תאריך</h2>
             </div>
             <div
               className="dateSelector"
@@ -77,7 +77,7 @@ function Appointment() {
                 aria-hidden="true"
                 style={{ fontSize: "15px" }}
               ></i>
-              <h2>3. Choose time</h2>
+              <h2>3. בחירת זמן</h2>
             </div>
             <div
               className="timeSelector"
@@ -109,7 +109,7 @@ function Appointment() {
         </div>
         <div className="boxBtn">
             <Link to="/confirm" className="goBtn">
-              שלחי
+              שליחה
             </Link>
         </div>
       </div>
