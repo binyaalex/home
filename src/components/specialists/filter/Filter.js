@@ -17,8 +17,8 @@ const Filter = (props) => {
       value: "ציון",
     },
     {
-      name: "אקראי",
-      value: "אקראי",
+      name: "מחיר",
+      value: "מחיר",
     },
   ];
 
