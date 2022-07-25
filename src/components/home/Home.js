@@ -41,7 +41,7 @@ const Home = () => {
               {/* Paid Service */}
             </section>
 
-            <div className="orderServiceArea">
+            <Link to='/specialists' className="orderServiceArea">
               <div className="orderServiceBtnDiv">
                 <div className="btnHeading">
                   <div className="textArea">
@@ -50,7 +50,7 @@ const Home = () => {
                   <img className="addBtnImg" src={addBtn} alt="add-btn" />
                 </div>
               </div>
-            </div>
+            </Link>
 
             <section className="blogArea">
               {/* Blog Swiper */}

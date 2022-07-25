@@ -9,25 +9,25 @@ const ServiceSqaureList = () => {
       image: "/images/home/service1.jpg",
       title: "נקיון כניסה",
       timing: "שני, חמישי 08:00 בבוקר",
-      link: "#",
+      link: "/entrancecleaninghistory",
     },
     {
       image: "/images/home/service2.jpg",
       title: "תחזוקת מעליות",
       timing: "יום חמישי הראשון לחודש",
-      link: "#",
+      link: "/entrancecleaninghistory",
     },
     {
       image: "/images/home/service3.jpg",
       title: "פינוי זבל",
       timing: "כל יום ב18:00",
-      link: "#",
+      link: "/entrancecleaninghistory",
     },
     {
       image: "/images/home/service4.jpg",
       title: "אבטחה",
       timing: "24/7",
-      link: "#",
+      link: "/entrancecleaninghistory",
     },
   ];
 
