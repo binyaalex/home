@@ -7,47 +7,47 @@ const PaidServiceSqaureList = () => {
   const paidServiceArr = [
     {
       img: "/images/home/paidService1.jpg",
-      title: "Cleaning",
+      title: "ניקוי כניסה",
       link: "#",
     },
     {
       img: "/images/home/paidService2.jpg",
-      title: "Electric",
+      title: "חשמל",
       link: "#",
     },
     {
       img: "/images/home/paidService3.jpg",
-      title: "Repair",
+      title: "תיקונים",
       link: "#",
     },
     {
       img: "/images/home/paidService4.jpg",
-      title: "Plumbing",
+      title: "אינסטלציה",
       link: "#",
     },
     {
       img: "/images/home/paidService5.jpg",
-      title: "Laundry",
+      title: "כביסה",
       link: "#",
     },
     {
       img: "/images/home/paidService6.jpg",
-      title: "Garbage",
+      title: "פינוי זבל",
       link: "#",
     },
     {
       img: "/images/home/paidService7.jpg",
-      title: "Moving",
+      title: "מעבר דירה",
       link: "#",
     },
     {
       img: "/images/home/paidService8.jpg",
-      title: "Complex",
+      title: "נקיון כללי",
       link: "#",
     },
     {
       img: "/images/home/paidService9.jpg",
-      title: "Entrance",
+      title: "כניסה",
       link: "#",
     },
   ];
@@ -57,9 +57,9 @@ const PaidServiceSqaureList = () => {
       <div className="paidServicesHeading">
         <Link to={"#"} className="downArrow">
           <KeyboardDoubleArrowDownIcon />
-          View all
+            לכל השירותים
         </Link>
-        <h3>My Home Services</h3>
+        <h3>השירותים שלנו</h3>
       </div>
       <div className="paidServiceSqaureList">
         {paidServiceArr.map((el, i) => {

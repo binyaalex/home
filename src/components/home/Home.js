@@ -19,7 +19,7 @@ const Home = () => {
     <>
       <div className="PageDad">
         <div className="page">
-          <Head text="Home" />
+          <Head text="בית" />
           <main className="homePage rtl">
             <Search />
 
@@ -45,7 +45,7 @@ const Home = () => {
               <div className="orderServiceBtnDiv">
                 <div className="btnHeading">
                   <div className="textArea">
-                    <p>Order service</p>
+                    <p>הזמן שירות</p>
                   </div>
                   <img className="addBtnImg" src={addBtn} alt="add-btn" />
                 </div>

@@ -13,19 +13,19 @@ const BlogSquareList = () => {
   const blogListArr = [
     {
       image: "/images/home/blog.jpg",
-      title: "The most effective cleaning products",
+      title: "מוצרי הניקוי הכי יעילים",
       arrow_img: { leftArrow },
       link: "#",
     },
     {
       image: "/images/home/blog.jpg",
-      title: "The most effective cleaning products ",
+      title: "מוצרי הניקוי הכי יעילים",
       arrow_img: { leftArrow },
       link: "#",
     },
     {
       image: "/images/home/blog.jpg",
-      title: "The most effective cleaning products",
+      title: "מוצרי הניקוי הכי יעילים",
       arrow_img: { leftArrow },
       link: "#",
     },
@@ -48,9 +48,9 @@ const BlogSquareList = () => {
         <div className="blogHeading">
         <Link to={"#"} className="downArrow">
           <KeyboardDoubleArrowDownIcon />
-          View all
+           לכל הפוסטים
         </Link>
-        <h3>Our Blog</h3>
+        <h3>הבלוג שלנו</h3>
       </div>
       <Swiper
         spaceBetween={30}

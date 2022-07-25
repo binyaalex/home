@@ -11,23 +11,23 @@ const CategorySquareList = () => {
   const categoryListArr = [
     {
       image: "/images/home/category.jpg",
-      discount: "Get 20% on Cleaning",
-      coupon: "Beersheba7",
-      image_title: "01 May - 01 June",
+      discount: "קבל 20% הנחה על שירותי הנקיון",
+      coupon: "מבצע-נקיון7",
+      image_title: "01/05 - 31/05",
       link: "#",
     },
     {
       image: "/images/home/category.jpg",
-      discount: "Get 20% on Cleaning",
-      coupon: "Beersheba7",
-      image_title: "01 May - 01 June",
+      discount: "קבל 20% הנחה על שירותי הנקיון",
+      coupon: "מבצע-נקיון7",
+      image_title: "01/05 - 31/05",
       link: "#",
     },
     {
       image: "/images/home/category.jpg",
-      discount: "Get 20% on Cleaning",
-      coupon: "Beersheba7",
-      image_title: "01 May - 01 June",
+      discount: "קבל 20% הנחה על שירותי הנקיון",
+      coupon: "מבצע-נקיון7",
+      image_title: "01/05 - 31/05",
       link: "#",
     },
   ];
@@ -39,7 +39,7 @@ const CategorySquareList = () => {
       <h6 className="imageDiscount">{el.discount}</h6>
       <h6 className="imageCode">
         <span>
-          <b>CODE: </b>
+          <b>קוד: </b>
         </span>
         {el.coupon}
       </h6>

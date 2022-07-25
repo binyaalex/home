@@ -7,25 +7,25 @@ const ServiceSqaureList = () => {
   const serviceListArr = [
     {
       image: "/images/home/service1.jpg",
-      title: "Entrance cleaning",
-      timing: "Monday, Thursday 08:00 am",
+      title: "ניקוי כניסה",
+      timing: "שני, חמישי 08:00 בבוקר",
       link: "#",
     },
     {
       image: "/images/home/service2.jpg",
-      title: "Elevator maintenance",
-      timing: "First thursday of the month",
+      title: "תחזוקת מעליות",
+      timing: "יום חמישי הראשון לחודש",
       link: "#",
     },
     {
       image: "/images/home/service3.jpg",
-      title: "Garbage removal",
-      timing: "Daily at 18:00 pm",
+      title: "פינוי זבל",
+      timing: "כל יום ב18:00",
       link: "#",
     },
     {
       image: "/images/home/service4.jpg",
-      title: "Complex security",
+      title: "אבטחה",
       timing: "24/7",
       link: "#",
     },
@@ -36,9 +36,9 @@ const ServiceSqaureList = () => {
       <div className="servicesHeading">
         <Link to={"#"} className="downArrow">
           <KeyboardDoubleArrowDownIcon />
-          View all
+            לכל השירותים
         </Link>
-        <h3>My Home Services</h3>
+        <h3>השירותים שהוזמנו</h3>
       </div>
       <div className="serviceSqaureList">
         {serviceListArr.map((el, i) => {

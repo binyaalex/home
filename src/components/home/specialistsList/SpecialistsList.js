@@ -7,7 +7,7 @@ const SpecialistsList = () => {
     <div className="specialistsListSec">
         <div className="specialistsArea">
           <div className="specialistsHeading">
-            <h3>Our Specialists</h3>
+            <h3>המומחים שלנו</h3>
           </div>
           <div className="row specialistsBoxArea">
             <SpecialistsListSqaure />

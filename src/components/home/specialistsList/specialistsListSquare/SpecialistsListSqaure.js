@@ -6,7 +6,67 @@ import "swiper/css";
 import StarIcon from '@mui/icons-material/Star';
 
 const SpecialistsListSqaure = () => {
+
   const specialistsListArr = [
+    {
+      image: "/images/specialists/specialists1.jpg",
+      firstName: 'דניאל כהן',
+      position: "מנקה",
+      rating: "4.6",
+      link: "/specialists",
+    },
+    {
+      image: "/images/specialists/specialists2.jpg",
+      firstName: 'יוני לוי',
+      position: "שיפוצניקית",
+      rating: "4.6",
+      link: "/specialists",
+    },
+    {
+      image: "/images/specialists/specialists3.jpg",
+      firstName: 'איתי ערד',
+      position: "שרברב",
+      rating: "4.6",
+      link: "/specialists",
+    },
+    {
+      image: "/images/specialists/specialists4.jpg",
+      firstName: 'חיה אזולאי',
+      position: "מנקה",
+      rating: "4.6",
+      link: "/specialists",
+    },
+    {
+      image: "/images/specialists/specialists5.jpg",
+      firstName: 'יעל כהן',
+      position: "מנקה",
+      rating: "4.6",
+      link: "/specialists",
+    },
+    // {
+    //   image: "/images/specialists/specialists1.jpg",
+    //   firstName: 'נעם מאיר',
+    //   position: "מנקה",
+    //   rating: "4.6",
+    //   link: "/specialists",
+    // },
+    // {
+    //   image: "/images/specialists/specialists2.jpg",
+    //   firstName: 'מאיר ברנר',
+    //   position: "מאבטח",
+    //   rating: "4.6",
+    //   link: "/specialists",
+    // },
+    // {
+    //   image: "/images/specialists/specialists3.jpg",
+    //   firstName: 'אבי דוידוף',
+    //   position: "חשמלאית",
+    //   rating: "4.6",
+    //   link: "/specialists",
+    // },
+  ];
+
+  const specialistsListArr1 = [
     {
       image: "/images/specialists/specialists1.jpg",
       title: "Ed Tomas",
