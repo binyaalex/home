@@ -11,43 +11,43 @@ const EntranceCleaningHistory = () => {
     const entranceCleaningHistoryArr = [
       {
         img: "/images/entranceCleaning/entranceCleaning1.jpg",
-        title: "Monday 9 May",
-        desc: "Your cleaner – Kate Ostin",
+        title: "יום שני 09/05",
+        desc: "המנקה שלך – דניאל כהן",
         link: "#",
         class: "reviewColorGreen"
       },
       {
         img: "/images/entranceCleaning/entranceCleaning1.jpg",
-        title: "Thursday 12 May",
-        desc: "Your cleaner – Lola Brown",
+        title: "יום חמישי 12/05",
+        desc: "המנקה שלך – חיה אזולאי",
         link: "#",
         class: "reviewColorGreen"
       },
       {
         img: "/images/entranceCleaning/entranceCleaning1.jpg",
-        title: "Monday 16 May",
-        desc: "Your cleaner – Ed Tomas",
+        title: "יום שני 16/05",
+        desc: "המנקה שלך – דניאל כהן",
         link: "#",
         class: "reviewColorGreen"
       },
       {
         img: "/images/entranceCleaning/entranceCleaning1.jpg",
-        title: "Thursday 19 May",
-        desc: "Your cleaner – Kate Ostin",
+        title: "יום חמישי 19/05",
+        desc: "המנקה שלך – חיה אזולאי",
         link: "#",
         class: "reviewColorWhite"
       },
       {
         img: "/images/entranceCleaning/entranceCleaning1.jpg",
-        title: "Monday 23 May",
-        desc: "Your cleaner – Scott Lee",
+        title: "יום שני 23/05",
+        desc: "המנקה שלך – דניאל כהן",
         link: "#",
         class: "reviewColorWhite"
       },
       {
         img: "/images/entranceCleaning/entranceCleaning1.jpg",
-        title: "Thursday 26 May",
-        desc: "Your cleaner – Lola Brown",
+        title: "יום חמישי 26/05",
+        desc: "המנקה שלך – חיה אזולאי",
         link: "#",
         class: "reviewColorWhite"
       },
@@ -56,12 +56,12 @@ const EntranceCleaningHistory = () => {
   return (
     <div className="PageDad">
       <div className="page">
-        <Head text="Entrance Cleaning" />
+        <Head text="נקיון כניסה" />
         <main className="entranceCleaningHistory">
           <Banner />
           <div className="entranceCleaningHistoryPage">
             <div className="titleDiv">
-                <p className="titleP">HISTORY OF ENTRANCE CLEANING</p>
+                <p className="titleP">היסטורית נקיון כניסה</p>
                 <img src={downArrow} className="arrowImg" alt="arrow" />
             </div>
             <div className="staffSquaresDiv">

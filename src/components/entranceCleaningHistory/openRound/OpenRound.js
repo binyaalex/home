@@ -23,7 +23,7 @@ const OpenRound = (props) => {
               </div>
               <div className="entranceCleaningHistoryBtn">
                 <Link to={props.link} className={props.class}>
-                  Review
+                  פרטים
                 </Link>
               </div>
             </Typography>

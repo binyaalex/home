@@ -12,7 +12,7 @@ const Banner = () => {
           className="bannerImg"
         />
         <div className="bannerContent">
-          <h1 className="w-100">Monday, Thursday 08:00 am</h1>
+          <h1 className="w-100">שני, חמישי 08:00 בבוקר</h1>
         </div>
       </div>
     </>
