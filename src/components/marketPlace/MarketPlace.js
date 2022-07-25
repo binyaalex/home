@@ -14,19 +14,19 @@ import TabBtn from "./tabBtnMenu/TabBtn";
 const MarketPlace = () => {
   const tabsBtnsArr = [
     {
-      text: "ALL",
+      text: "הכל",
     },
     {
-      text: "CLEANING",
+      text: "נקיון",
     },
     {
-      text: "ELECTRIC",
+      text: "חשמל",
     },
     {
-      text: "HANDYMAN",
+      text: "שיפוצים",
     },
     {
-      text: "PLUMBING",
+      text: "אינסטלציה",
     },
   ];
 
@@ -43,7 +43,7 @@ const MarketPlace = () => {
     <>
       <div className="PageDad">
         <div className="page">
-          <Head text="Marketplace" />
+          <Head text="מרכז מסחרי" />
           <main className="marketPlacePage rtl">
             <section className="searchSec">
               <div className="searchArea">
@@ -60,7 +60,7 @@ const MarketPlace = () => {
                     name="search"
                     id="search"
                     className="inputSearch"
-                    placeholder="Search"
+                    placeholder="חיפוש"
                   />
                 </div>
               </div>
@@ -92,7 +92,7 @@ const MarketPlace = () => {
             </section>
 
             <section className="service_list_sec best_deals_sec">
-              <h3>Best Deals</h3>
+              <h3>שירותים פופלרים</h3>
               <div className="tabs">
                 <div id="tabs-content">
                   <div id="tab1" className="tab-content">

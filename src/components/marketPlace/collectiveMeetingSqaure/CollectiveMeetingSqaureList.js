@@ -13,19 +13,19 @@ const CollectiveMeetingSqaureList = () => {
   const blogListArr = [
     {
       image: "/images/marketPlace/marketplace.jpg",
-      title: "Group of responsible residents of the house",
+      title: "ועד הבית",
       arrow_img: { leftArrow },
       link: "#",
     },
     {
       image: "/images/marketPlace/marketplace.jpg",
-      title: "Group of responsible residents of the house ",
+      title: "ועד הבית",
       arrow_img: { leftArrow },
       link: "#",
     },
     {
       image: "/images/marketPlace/marketplace.jpg",
-      title: "Group of responsible residents of the house",
+      title: "ועד הבית",
       arrow_img: { leftArrow },
       link: "#",
     },
@@ -48,9 +48,9 @@ const CollectiveMeetingSqaureList = () => {
       <div className="collectiveMeetingHeading">
         <Link to={"#"} className="downArrow">
           <KeyboardDoubleArrowDownIcon />
-          View all
+          לכל הפגישות
         </Link>
-        <h3>COLLECTIVE MEETING</h3>
+        <h3>פגישה</h3>
       </div>
       <Swiper
         spaceBetween={30}

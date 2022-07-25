@@ -13,7 +13,7 @@ const ProductsSquare = (props) => {
               <>
                 <div className="time_dt d-flex justify-content-center">
                   <p className="off15">
-                    <strong>35% OFF</strong>
+                    <strong>35% הנחה</strong>
                     <span>03:25:41</span>
                   </p>
                 </div>
@@ -30,7 +30,7 @@ const ProductsSquare = (props) => {
               <>
                 <div className="time_dt d-flex justify-content-center">
                   <p className="off15">
-                    <strong>35% OFF</strong>
+                    <strong>35% הנחה</strong>
                     <span>03:25:41</span>
                   </p>
                 </div>

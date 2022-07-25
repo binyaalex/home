@@ -6,13 +6,13 @@ const BestDealsSquareList = () => {
   const BestDealsListArr = [
     {
       img: "/images/marketPlace/product5.jpg",
-      title: "Window washing",
+      title: "ניקוי חלונות",
       price: "65$",
       link: "#",
     },
     {
       img: "/images/marketPlace/product6.jpg",
-      title: "Leak repair",
+      title: "תיקון נזילות",
       price: "70$",
       link: "#",
     },
