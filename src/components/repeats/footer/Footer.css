@@ -15,11 +15,11 @@
 .sosAndGray {
     display: flex;
     align-items: center;
-    width: 315px;
+    width: 290px;
 }
 
 .sosAndGray > a {
-  margin-right: 56px;
+  margin-right: 36px;
 }
 
 .sos {
