@@ -9,7 +9,7 @@ const SpecialistsList = () => {
     <div className="specialistsListSec">
         <div className="specialistsArea">
           <div className="specialistsHeading">
-            <Link to={"#"} className="downArrow">
+            <Link to={"/specialists"} className="downArrow">
               <KeyboardDoubleArrowDownIcon />
               לכל המומחים
             </Link>

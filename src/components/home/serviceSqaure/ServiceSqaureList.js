@@ -7,7 +7,7 @@ const ServiceSqaureList = () => {
   const serviceListArr = [
     {
       image: "/images/home/service1.jpg",
-      title: "ניקוי כניסה",
+      title: "נקיון כניסה",
       timing: "שני, חמישי 08:00 בבוקר",
       link: "#",
     },
@@ -34,7 +34,7 @@ const ServiceSqaureList = () => {
   return (
     <>
       <div className="servicesHeading">
-        <Link to={"#"} className="downArrow">
+        <Link to={"/services"} className="downArrow">
           <KeyboardDoubleArrowDownIcon />
             לכל השירותים
         </Link>

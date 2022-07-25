@@ -55,7 +55,7 @@ const PaidServiceSqaureList = () => {
   return (
     <>
       <div className="paidServicesHeading">
-        <Link to={"#"} className="downArrow">
+        <Link to={"/services"} className="downArrow">
           <KeyboardDoubleArrowDownIcon />
             לכל השירותים
         </Link>

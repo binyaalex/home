@@ -9,7 +9,7 @@ const ServiceList = () => {
 	const pregnancyArr = [
 		{
 			img: '/images/serviceList/clean.jpg',
-			text: 'ניקוי כניסה',
+			text: 'נקיון כניסה',
 			link: '/entrancecleaninghistory',
 		},
 		{
