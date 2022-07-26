@@ -280,7 +280,7 @@
 
 .homePage .blogArea .imageArrow {
   position: absolute;
-  bottom: 20%;
+  bottom: 22%;
   left: 5%;
   height: 18px;
   width: 10px;
@@ -288,7 +288,7 @@
 
 .homePage .blogArea .imageTitle {
   position: absolute;
-  bottom: 10%;
+  bottom: 14%;
   font-size: 22px;
   font-weight: 600;
   color: white;

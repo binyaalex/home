@@ -64,7 +64,7 @@ const Home = () => {
               {/* Specialists Swiper */}
             </section>
           </main>
-          <Footer />
+          <Footer page='home' />
         </div>
       </div>
     </>

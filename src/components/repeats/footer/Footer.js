@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-// import { Link } from "react-router-dom";
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import GrayIcon from "./GrayIcon";
 import "./Footer.css";
+import { color } from "@mui/system";
 
 // import { useTranslation } from "react-i18next";
 
@@ -25,23 +27,28 @@ const containerArr = [
   },
 ];
 
-const Footer = () => {
+const Footer = ({page}) => {
   // export default function Footer() {
   // const { t } = useTranslation();
+  let color = 'var(--lightgreen)'
+  if (page === 'home') {
+    color = 'var(--green)'
+  }
 
   return (
     <div>
       <footer className="footer">
         <div className="sosAndGray">
-          <a>
-            <img className="sos" src="/images/footer/home.png" />
-          </a>
+          <Link to='/' className="homeIconLink" style={{background: color}} >
+            {/* <img className="sos" src="/images/footer/home.png" /> */}
+            <HomeOutlinedIcon />
+          </Link>
           <div className="grayIcons">
             {containerArr.map((el, i) => {
               return (
-                <a className="grayIconLink" key={i}>
+                <Link to={el.link} className="grayIconLink" key={i}>
                   <GrayIcon img={el.img} />
-                </a>
+                </Link>
               );
             })}
           </div>

@@ -22,9 +22,16 @@
   margin-right: 36px;
 }
 
-.sos {
-  width: 47px;
+.footer .homeIconLink {
+  background: var(--lightgreen);
+  border-radius: 50%;
+  padding: 2px 7px 7px;
 }
+
+.footer .homeIconLink svg {
+  fill: white;
+}
+
 
 .grayIcons {
   display: flex;
