@@ -10,47 +10,35 @@ const PaidServices = () => {
 
 	const reportSquareArr = [
 		{
-			header: 'בדיקת רופאה',
-			text: 'בדיקת היסטוריה רפואית',
+			header: 'החלפת כבל',
+			text: 'שדרות רגר 8, דירה 101',
 			hour: '08:00',
             price: `45`,
 		},
 		{
-			header: 'מתן תרופות וויטמנים',
-			text: 'ויטמין D, אומגה',
+			header: 'הוספת שקעים',
+			text: 'שדרות רגר 7, דירה 151',
 			hour: '08:30',
-            price: `45`,
+            price: `70`,
 		},
 		{
-			header: 'עירוי',
-			text: 'גלוקוז',
+			header: 'החלפת כבל',
+			text: 'שדרות רגר 8, דירה 101',
 			hour: '11:00',
             price: `45`,
 		},
 		{
-			header: 'תוצאות בדיקה',
-			text: 'ספירת דם, ברזל',
+			header: 'הוספת שקעים',
+			text: 'שדרות רגר 7, דירה 151',
 			hour: '16:00',
-            price: `45`,
-		},
-		{
-			header: 'סיבוב ערב',
-			text: 'בדיקה',
-			hour: '18:00',
-            price: `45`,
-		},
-		{
-			header: 'זריקות',
-			text: 'במידת הצורך',
-			hour: '20:30',
-            price: `45`,
+            price: `70`,
 		},
 	]
 
 	return (
 		<div className='PageDad' >
 			<div className='page' >
-				<Head text='דיווח יומי' />
+				<Head text='השירותים שהוזמנו' />
 				<div className='procedursPage reoprtPage'>
 					<Search icon='/images/search/starSquare.png' />
 					<DayPicker />

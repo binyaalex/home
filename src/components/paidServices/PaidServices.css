@@ -24,6 +24,11 @@
     text-align: center;
 }
 
+.procedursSquareDatePrice {
+    color: var(--green);
+    font-weight: 600;
+}
+
 .procedursSquareTextDiv {
 	direction: rtl;
 }
