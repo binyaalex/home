@@ -14,6 +14,7 @@ import PaidServices from './components/paidServices/PaidServices';
 import MyAdresses from './components/myAddresses/MyAdresses';
 import ManagerAccount from './components/managerAccount/ManagerAccount';
 import Check from './components/check/Check';
+import AboutSpesialist from './components/aboutSpesialist/AboutSpesialist';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Route path="/myadresses" element= {<MyAdresses />} />
               <Route path="/manageraccount" element= {<ManagerAccount />} />
               <Route path="/check" element= {<Check />} />
+              <Route path="/aboutspesialist" element= {<AboutSpesialist />} />
           </Routes>
         </BrowserRouter>
       </div>
