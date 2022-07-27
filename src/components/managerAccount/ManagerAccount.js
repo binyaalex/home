@@ -3,12 +3,12 @@ import DetailsList from './DetailsList';
 import Head from '../repeats/head/Head';
 import Footer from '../repeats/footer/Footer';
 
-const SpecialistAccount = () => {
+const ManagerAccount = () => {
 
 	return (
 		<div className='PageDad' >
 			<div className='page' >
-				<Head text='חשבון מומחה' />
+				<Head text='חשבון מנהל' />
 				<div className='contactPage'>
 					<DetailsList />
 				</div>
@@ -18,4 +18,4 @@ const SpecialistAccount = () => {
 	)
 }
 
-export default SpecialistAccount
+export default ManagerAccount

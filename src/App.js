@@ -12,6 +12,8 @@ import MyProfile from './components/myProfile/MyProfile';
 import SpecialistAccount from './components/specialistAccount/SpecialistAccount';
 import PaidServices from './components/paidServices/PaidServices';
 import MyAdresses from './components/myAddresses/MyAdresses';
+import ManagerAccount from './components/managerAccount/ManagerAccount';
+import Check from './components/check/Check';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
               <Route path="/specialistAccount" element= {<SpecialistAccount />} />
               <Route path="/paidservices" element= {<PaidServices />} />
               <Route path="/myadresses" element= {<MyAdresses />} />
+              <Route path="/manageraccount" element= {<ManagerAccount />} />
+              <Route path="/check" element= {<Check />} />
           </Routes>
         </BrowserRouter>
       </div>

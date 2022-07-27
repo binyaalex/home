@@ -19,7 +19,7 @@ const MyAdressesSquare = ({header, text, hour, price, i}) => {
 			<div className='reportSquareTimeAndText'>
 				<div className='procedursSquareDate'>
 					<div className='procedursSquareDateDay'>{hour}</div>
-					<div className='procedursSquareDatePrice'>{price}$</div>
+					<div className='procedursSquareDateDate'>{price}</div>
 				</div>
 				<div className='procedursSquareTextDiv'>
 					<div className='procedursSquareTextDivH'>{header}</div>
