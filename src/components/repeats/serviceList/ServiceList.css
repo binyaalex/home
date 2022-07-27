@@ -9,7 +9,7 @@
 .service_box .box_con{margin-right: 10px;width: calc(100% - 80px);padding:8px 0 20px;border-bottom: 1px solid #ebebeb;}
 .box_con h4{font-size: 15px;font-weight: 300;color:#222B45}
 .box_con p{font-size: 13px;margin: 0;font-weight: 400;color:#8F9BB3; line-height: 1;}
-.box_con span{font-size: 16px;color: #BF2C7D;font-weight: 600; margin-top: 3px;}
+.box_con span{font-size: 16px;color: var(--green);font-weight: 600; margin-top: 3px;}
 
 
 .service_list_sec .justify-between{justify-content: space-between;}

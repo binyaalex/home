@@ -47,7 +47,7 @@ const AboutSpesialist = () => {
                 <div className="service_box_area">
                   <div className="service_box rating_box">
                     <div className="box_con review_box">
-                      <div className="box_heading d-flex align-center justify-between row-reverse">
+                      <div className="box_heading d-flex align-center justify-between row-r">
                         <span>11 Feb 2022</span>
                         <h4>גיל קורסי</h4>
                       </div>
@@ -67,7 +67,7 @@ const AboutSpesialist = () => {
                   </div>
                   <div className="service_box rating_box">
                     <div className="box_con review_box">
-                      <div className="box_heading d-flex align-center justify-between row-reverse">
+                      <div className="box_heading d-flex align-center justify-between row-r">
                         <span>28 Jan 2022</span>
                         <h4>סיון ששון</h4>
                       </div>

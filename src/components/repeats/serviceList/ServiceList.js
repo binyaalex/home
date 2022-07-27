@@ -28,7 +28,7 @@ const ServiceList = () => {
   return (
     <div className="service_list_sec">
       <div className="container">
-        <div className="doctors_area">
+        <div className="doctors_area services_area">
           <ServiceListHeader text='השירותים שלנו:' link='#' />
           <div className="service_box_area">
             {

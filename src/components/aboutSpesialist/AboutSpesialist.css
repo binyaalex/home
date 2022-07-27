@@ -296,7 +296,7 @@ p .fa-envelope {
 }
 .review_rating_sec .review_heading a {
   font-size: 15px;
-  color: #bf2c7d !important;
+  color: var(--green) !important;
   font-weight: 400;
 }
 .review_rating_sec .review_heading a img {
@@ -305,6 +305,7 @@ p .fa-envelope {
   transition: all 0.5s ease;
   width: 9px;
   height: 9px;
+	transform: rotate(180deg);
 }
 .review_rating_sec .d-flex {
   display: flex;
