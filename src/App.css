@@ -1,6 +1,7 @@
 html {
   --green: #17AB5F;
   --lightgreen: #97E6BD;
+  --greenGradient: linear-gradient(to right, #17AB5F , #97E6BD);
 }
 
 .PageDad {

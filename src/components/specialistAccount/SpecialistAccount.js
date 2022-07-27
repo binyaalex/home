@@ -1,9 +1,9 @@
-import './Contact.css';
+import '../myProfile/MyProfile.css';
 import DetailsList from './DetailsList';
 import Head from '../repeats/head/Head';
 import Footer from '../repeats/footer/Footer';
 
-const Contact = () => {
+const SpecialistAccount = () => {
 
 	return (
 		<div className='PageDad' >
@@ -18,4 +18,4 @@ const Contact = () => {
 	)
 }
 
-export default Contact
+export default SpecialistAccount

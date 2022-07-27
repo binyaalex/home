@@ -8,7 +8,9 @@ import Appointment from './components/appointment/Appointment';
 import EntranceCleaningHistory from './components/entranceCleaningHistory/EntranceCleaningHistory';
 import Home from './components/home/Home';
 import MarketPlace from './components/marketPlace/MarketPlace';
-import Contact from './components/contact/Contact';
+import MyProfile from './components/myProfile/MyProfile';
+import SpecialistAccount from './components/specialistAccount/SpecialistAccount';
+import PaidServices from './components/paidServices/PaidServices';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
               <Route path="/appointment" element={<Appointment />} />
               <Route path="/entrancecleaninghistory" element={<EntranceCleaningHistory />} />
               <Route path="/marketplace" element={<MarketPlace />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/myprofile" element={<MyProfile />} />
+              <Route path="/specialistAccount" element= {<SpecialistAccount />} />
+              <Route path="/paidservices" element= {<PaidServices />} />
           </Routes>
         </BrowserRouter>
       </div>
