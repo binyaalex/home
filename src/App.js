@@ -11,6 +11,7 @@ import MarketPlace from './components/marketPlace/MarketPlace';
 import MyProfile from './components/myProfile/MyProfile';
 import SpecialistAccount from './components/specialistAccount/SpecialistAccount';
 import PaidServices from './components/paidServices/PaidServices';
+import MyAdresses from './components/myAddresses/MyAdresses';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path="/myprofile" element={<MyProfile />} />
               <Route path="/specialistAccount" element= {<SpecialistAccount />} />
               <Route path="/paidservices" element= {<PaidServices />} />
+              <Route path="/myadresses" element= {<MyAdresses />} />
           </Routes>
         </BrowserRouter>
       </div>
