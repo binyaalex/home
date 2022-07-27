@@ -8,6 +8,7 @@ import Appointment from './components/appointment/Appointment';
 import EntranceCleaningHistory from './components/entranceCleaningHistory/EntranceCleaningHistory';
 import Home from './components/home/Home';
 import MarketPlace from './components/marketPlace/MarketPlace';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path="/appointment" element={<Appointment />} />
               <Route path="/entrancecleaninghistory" element={<EntranceCleaningHistory />} />
               <Route path="/marketplace" element={<MarketPlace />} />
+              <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
       </div>
