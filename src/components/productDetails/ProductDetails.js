@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./ProductDetails.css";
 
 import bar from "../../assets/images/productDetails/22.jpg";
+import star from "../../assets/images/productDetails/star.png";
 import Head from "./head/Head";
 import ProductDetailsSquareList from "./ProductDetailsSquare/ProductDetailsSquareList";
 
@@ -68,47 +69,47 @@ const ProductDetails = () => {
           <div className="productdetail_star_list">
             <img className="ratingimg" src={bar} alt="bar" />
 
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
 
             <br />
             <img className="ratingimg" src={bar} alt="bar" />
 
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star"></span>
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
 
             <br />
             <img className="ratingimg" src={bar} alt="bar" />
 
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star"></span>
-            <span className="fa fa-star"></span>
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
 
             <br />
             <img className="ratingimg" src={bar} alt="bar" />
 
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star"></span>
-            <span className="fa fa-star"></span>
-            <span className="fa fa-star"></span>
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
 
             <br />
             <img className="ratingimg" src={bar} alt="bar" />
 
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star"></span>
-            <span className="fa fa-star"></span>
-            <span className="fa fa-star"></span>
-            <span className="fa fa-star"></span>
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
+            <img src={star} className="fa fa-star checked" />
 
             <br />
             <p className="productdetail_rating_p">248 ביקורות</p>

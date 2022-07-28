@@ -16,6 +16,10 @@
   padding: 35px 10px 0px 15px;
 }
 
+.productdetail_pages .productdetail_image_div img {
+  border-radius: 10px;
+}
+
 .productdetail_pages
   .productdetail_image_sec
   .productdetail_image_div
