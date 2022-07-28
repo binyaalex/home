@@ -12,37 +12,48 @@ const ProductDetails = () => {
     <div className="PageDad">
       <div className="productdetail_pages rtl">
         <section className="productdetail_image_sec">
-          <Head text="Evenflo Pivot Travel System" />
+          <Head text="תחזוקה לבית - החברה המובילה בתחום" />
           <ProductDetailsSquareList />
         </section>
 
         <div className="productdetail_image_text_div">
           <p className="productdetail_p1">
-            עגלת התינוק החדישה ביותר <br />
-            גם מושב בטיחות וגם עגלה במוצר אחד
+            נקיון יסודי של הדירה
           </p>
-          <h3 className="productdetail_p2">315$</h3>
+          <h3 className="productdetail_p2">85$</h3>
         </div>
 
         <div className="productdetail_about_div">
-          <h3 className="productdetail_about_div_h1">על המוצר</h3>
+          <h3 className="productdetail_about_div_h1">על השירות</h3>
           <p>
-            מערכת נסיעות גמישה לתינוקות - המערכת היא שילוב של עגלה ומושב לרכב עם
-            מקסימום בטיחות מושב בטיחות לתינוק הפונה לאחור ובסיס אזור בטוח הכולל
-            מוט נגד ריבאונד מושקע באביזרים ידידותיים להורים ולילדים.
+          גם אלו מכם שגרים בדירה זקוקים לעזרה מדי פעם. לא משנה מה מצב חייך, מגיע לך מנוחה.
           </p>{" "}
-          <br />
+          {/* <br /> */}
           <p>
-            רב תכליתי וקל משקל: שילוב מושב ועגלה לרכב זה כולל מסגרת מודולרית עם
-            6 מצבים. המצב ההפיך מאפשר לתינוקך לפנות פנימה או החוצה, בעוד שמכסות
-            העגלה מתחמקים ממסגרת מושב תינוק למושב עגלה או מצב עגלה בקלות.
+          הדבר האחרון שתרצו לעשות הוא לחזור הביתה מיום ארוך ולהתחיל לנקות.
           </p>{" "}
-          <br />
+          {/* <br /> */}
           <p>
-            העברת מושב בטיחות לתינוקות קלה: שילוב מושב ועגלה זה תוכנן עם בסיס
-            להישאר ברכב המאפשר חיבור מהיר ובטוח של מושב בטיחות לתינוק מעגלה לרכב
-            ולהיפך.
+          שירותי ניקיון הדירות שלנו הם הפתרון המושלם.
           </p>{" "}
+          <p>
+          הנקיון כולל:
+          </p>
+          <p>
+          - ניקוי רצפות
+          </p>
+          <p>
+          - ניקוי רטוב
+          </p>
+          <p>
+          - ציוד ניקוי
+          </p>
+          <p>
+          - שטיפת כלים
+          </p>
+          <p>
+          - הוצאת זבל
+          </p>
         </div>
 
         <div className="productdetail_card">
@@ -108,10 +119,10 @@ const ProductDetails = () => {
           <div className="container">
             <div className="btn_area">
               <Link to={"/bills"} className="buy_now_btn add_to_card_btn">
-                הוסיפי לעגלה
+                הוסף לעגלה
               </Link>
               <Link to={"/paynow"} className="buy_now_btn">
-                שלמי עכשיו
+                שלם עכשיו
               </Link>
             </div>
           </div>
