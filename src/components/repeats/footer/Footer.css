@@ -68,23 +68,26 @@
   bottom: 17px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 500px) {
   .footer{
     padding: 15px 10px !important;
   }
   .sos{
     margin-right: 20px;
   }
-  .grayIcons{
+  /* .grayIcons{
     width: 200px !important;
-  }
+  } */
   .chat{
     right: 10px !important;
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
   .sos{
     margin-right: 10px;
+  }
+  .grayIcons{
+    width: 175px !important;
   }
 }

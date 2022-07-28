@@ -38,3 +38,7 @@
   margin-bottom: 12px;
   border-radius: 5px;
 }
+
+@media screen only(max-width:420px) {
+  
+}

@@ -136,7 +136,8 @@
 
 .productdetail_pages .productdetail_rating .ratingimg {
   margin-right: 10px;
-  height: 11.5px;
+  /* height: 11.5px; */
+  width: 64%;
 }
 
 .productdetail_pages .productdetail_rating {
