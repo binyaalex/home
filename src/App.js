@@ -15,6 +15,7 @@ import MyAdresses from './components/myAddresses/MyAdresses';
 import ManagerAccount from './components/managerAccount/ManagerAccount';
 import Check from './components/check/Check';
 import AboutSpesialist from './components/aboutSpesialist/AboutSpesialist';
+import ProductDetails from './components/productDetails/ProductDetails';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route path="/manageraccount" element= {<ManagerAccount />} />
               <Route path="/check" element= {<Check />} />
               <Route path="/aboutspesialist" element= {<AboutSpesialist />} />
+              <Route path="/productdetails" element= {<ProductDetails />} />
           </Routes>
         </BrowserRouter>
       </div>
