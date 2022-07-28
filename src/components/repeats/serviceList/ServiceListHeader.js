@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import doubleArrow from "../../../assets/images/icons/green/double_arrow_right.png";
 
-const ServiceListHeader = ({ text, link }) => {
+const ServiceListHeader = ({ text, text2, link }) => {
   return (
     <div
       className="service_heading d-flex align-center justify-between"
@@ -14,6 +14,7 @@ const ServiceListHeader = ({ text, link }) => {
           className="departmensHeaderImg"
           src={doubleArrow}
         />
+        לכל השירותים
       </Link>
       <h3>{text}</h3>
     </div>

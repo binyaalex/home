@@ -15,8 +15,13 @@
 .service_list_sec .justify-between{justify-content: space-between;}
 .service_list_sec .row-reverse{flex-direction: row-reverse;}
 .service_list_sec .service_heading h3{font-size: 17px;font-weight: 400; margin-bottom: 8px;}
-.service_list_sec .service_heading a{font-size: 15px;color: var(--primary-color);font-weight: 400;}
-.service_list_sec .service_heading a img{margin-right: 3px;transition: all .5s ease;max-width: 11px;} 
+.service_list_sec .service_heading a{font-size: 15px;color: var(--green);font-weight: 400; align-items: baseline;}
+.service_list_sec .service_heading a img{    margin-right: 3px;
+    margin-bottom: 2px;
+    transition: all 0.5s ease;
+    width: 9px;
+    height: 9px;
+    transform: rotate(180deg);} 
 .service_list_sec .d-flex{display: flex;}
  
 .service_list_sec .box_heading a {display: flex; align-items: flex-start; padding-top: 3px}

@@ -298,6 +298,7 @@ p .fa-envelope {
   font-size: 15px;
   color: var(--green) !important;
   font-weight: 400;
+  align-items: baseline;
 }
 .review_rating_sec .review_heading a img {
   margin-right: 3px;
