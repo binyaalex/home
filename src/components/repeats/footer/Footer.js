@@ -23,7 +23,7 @@ const containerArr = [
   },
   {
     img: "/images/footer/user.png",
-    link: "",
+    link: "/myprofile",
   },
 ];
 

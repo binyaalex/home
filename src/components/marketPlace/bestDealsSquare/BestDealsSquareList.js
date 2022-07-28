@@ -8,13 +8,13 @@ const BestDealsSquareList = () => {
       img: "/images/marketPlace/product5.jpg",
       title: "ניקוי חלונות",
       price: "65$",
-      link: "#",
+      link: "/productdetails",
     },
     {
       img: "/images/marketPlace/product6.jpg",
       title: "תיקון נזילות",
       price: "70$",
-      link: "#",
+      link: "/productdetails",
     },
   ];
 

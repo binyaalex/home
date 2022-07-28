@@ -15,32 +15,32 @@ const ServiceList = () => {
 		{
 			img: '/images/serviceList/elevator.jpg',
 			text: 'תחזוקת מעליות',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 		{
 			img: '/images/serviceList/garbage.jpg',
 			text: 'פינוי זבל',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 		{
 			img: '/images/serviceList/security.jpg',
 			text: 'אבטחה',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 		{
 			img: '/images/serviceList/repair.jpg',
 			text: 'שיפוץ',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 		{
 			img: '/images/serviceList/electric.jpg',
 			text: 'חשמל',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 		{
 			img: '/images/serviceList/plumbing.jpg',
 			text: 'אינסטלציה',
-			link: '#',
+			link: '/entrancecleaninghistory',
 		},
 	]
 

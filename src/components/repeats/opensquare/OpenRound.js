@@ -25,7 +25,7 @@ const OpenRound = (props) => {
         </div>
       </div>
       <div className="doctorsbtn">
-        <Link className="about" to={"/doctor"}>
+        <Link className="about" to={"/aboutspesialist"}>
           אודות
         </Link>
         <Link className="appointment" to={"/appointment"}>

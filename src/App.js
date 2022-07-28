@@ -16,6 +16,7 @@ import ManagerAccount from './components/managerAccount/ManagerAccount';
 import Check from './components/check/Check';
 import AboutSpesialist from './components/aboutSpesialist/AboutSpesialist';
 import ProductDetails from './components/productDetails/ProductDetails';
+// import Login from './components/open/Login';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
               <Route path="/check" element= {<Check />} />
               <Route path="/aboutspesialist" element= {<AboutSpesialist />} />
               <Route path="/productdetails" element= {<ProductDetails />} />
+              {/* <Route path="/login" element= {<Login />} /> */}
           </Routes>
         </BrowserRouter>
       </div>

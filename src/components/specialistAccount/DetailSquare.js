@@ -1,7 +1,9 @@
-const DetailSquare = ({img, info, descrip}) => {
+import { Link } from "react-router-dom"
+
+const DetailSquare = ({img, info, descrip, link}) => {
 
 	return (
-		<section className='detailSquare' >
+		<Link className='detailSquare' to={link} >
 			<div className='detailImgDiv' >
 				<img className='detailImg' src={img} />
 			</div>
@@ -9,7 +11,7 @@ const DetailSquare = ({img, info, descrip}) => {
 				<h1 className='detailInfo' >{info}</h1>
 				<button className='detailEdit' >{descrip}</button>
 			</div>
-		</section>
+		</Link>
 	)
 }
 
